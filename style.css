@@ -1,0 +1,343 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+    .pdiv{
+        width: 60%;
+        display: flex;
+        justify-content: center; 
+    }
+  p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+body, header, .fullwidth{
+  margin: 0;
+}
+
+.img1 {
+  background-image: url("i16big.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Keeps the focus of the image in the center */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img2 {
+  background-image: url("i16plarge.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Keeps the focus of the image in the center */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img3 {
+  background-image: url("https://www.apple.com/v/home/br/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_announce_lte__erybd9d98zau_large.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Keeps the focus of the image in the center */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img4 {
+  background-image: url("https://www.apple.com/v/home/br/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_announce__fivguuenxqmq_medium_2x.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Keeps the focus of the image in the center */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img5 {
+  background-image: url("https://www.apple.com/v/home/br/images/promos/airpods-4/promo_airpods_4_announce__dvb5tea0uyye_medium_2x.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img6 {
+  background-image: url("https://www.apple.com/v/home/br/images/promos/airpods-pro-2/promo_airpods_pro_2_announce__egsgrnnmo3ee_small_2x.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img7 {
+  background-image: url("https://www.apple.com/v/home/br/images/promos/airpods-max/promo_airpodsmax_announce__2srayzjz3iay_small_2x.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.btnimg {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btnimg1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.b1 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+  }
+  span {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .btn {
+    margin-right: 10px;
+    padding: 8px 25px;
+  }
+  .divbtn {
+    margin-top: 10px;
+  }
+}.img3{
+  .b1{
+    height: 20%;
+    p, span{
+      color: black;
+      margin: 0;
+    }
+  }
+}
+.b11{
+  height: 90px;
+  width: 234px;
+  background-image: url('https://www.apple.com/v/home/br/images/logos/apple-watch-series-10/hero_logo_apple_watch_series_10__dla4dkv1wfue_large.png');
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.img4{
+  .b11{
+    height: 67.5px;
+    width: 175.5px;
+    background-image: url('https://www.apple.com/v/home/br/images/logos/apple-watch-ultra-2/promo_logo_apple_watch_ultra2__ggg2x39rsvqu_medium_2x.png');
+  }
+}
+
+.img5, .img6, .img7{
+  .btnimg1{
+    justify-content: end;
+  }
+}
+
+@media (width > 1300px) {
+  header {
+    .container {
+      width: 900px;
+    }
+  }
+}
+@media (width < 700px) {
+  .img45{
+    flex-direction: column;
+    .ml{
+      margin-left: 0;
+    }
+    .mr{
+      margin-right: 0;
+    }
+  }
+  .img1 {
+    background-image: url("https://www.apple.com/v/home/br/images/heroes/iphone-16-pro/hero_iphone16pro_preorder__bw14fpo72niu_small.jpg");
+  }
+  .img2{
+    background-image: url('i16psmall.jpg');
+  }
+  .img3{
+    background-image: url('https://www.apple.com/v/home/br/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_announce_lte__erybd9d98zau_small.jpg');
+  }
+  .b11{
+    height: 45px;
+    width: 117px;
+  }
+  .b1 {
+    h1 {
+      color: white;
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 17px;
+      color: white;
+    }
+    span {
+      font-size: 17px;
+      color: white;
+    }
+  }
+}
+@media(width > 700px) and (width < 1000px){
+  .img2{
+    background-image: url('i16pmid.jpg');
+  }
+}
+.img45{
+  display: flex;
+}
+.ml{
+  margin-left: 10px;
+}
+.mr{
+  margin-right: 10px;
+}
+.slider{
+  height: 400px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-500px * 8));
+  }
+}
+
+.slideTrack{
+  display: flex;
+  width: calc(500px * 16);
+  animation: scroll 50s linear infinite;
+}
+
+.slide1{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+  .imgs{
+    width: 100%;
+    transition: transform 1s;
+  }
+}
+.imgs:hover{
+  transform: translateZ(5px);
+}
+.footerp{
+  p{
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  br{
+    padding: 0;
+  }
+}
+footer{
+  a{
+    font-size: 12px;
+  }
+}
+.row{
+  h5{
+    font-size: 12px;
+  }
+}
+@media(width < 700px){
+  .slideTrack{
+    display: flex;
+    width: calc(250px * 16);
+    animation: scroll 25s linear infinite;
+  }
+  .slide1{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    .imgs{
+      width: 100%;
+      transition: transform 1s;
+    }
+  }
+  .slider{
+    height: 200px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  @keyframes scroll{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(calc(-250px * 8));
+    }
+  }
+}
+/* Apply flex centering only on larger screens */
+@media (max-width: 992px) {
+  .navbar .container-fluid {
+      justify-content: space-between !important; /* Align to the left on small screens */
+  }
+
+  .navbar-collapse {
+      justify-content: flex-start !important; /* Remove centering for the nav items */
+  }
+}
+
+
+
+
